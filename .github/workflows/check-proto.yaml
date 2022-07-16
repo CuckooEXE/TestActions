@@ -1,8 +1,6 @@
 name: Check IPFS key.proto Updates
 on:
-  schedule:
-    # Every Sunday at 0000
-    - cron:  '0 0 * * 0'
+  push
 
 jobs:
   build:
